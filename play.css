@@ -17,3 +17,15 @@
   background-color: #DB7093;
   color: #FFF5EE;
 }
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #C0C0C0;
+}
+
+.incorrect {
+  background-color: #FF0000;
+}
