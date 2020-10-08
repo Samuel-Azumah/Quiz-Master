@@ -12,3 +12,8 @@
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #DB7093;
+  color: #FFF5EE;
+}
