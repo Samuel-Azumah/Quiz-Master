@@ -18,4 +18,6 @@
     {
       "question": " Test cases are design during which of the following stages ?",
       "choice1": "Test recording",
+      "choice2": "Test configuration",
+      "choice3": "Test planning",
      
