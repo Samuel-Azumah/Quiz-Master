@@ -33,6 +33,18 @@
   display: flex;
   justify-content: space-between;
 }
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #8B4513;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: #8B4513;
+  width: 0%;
+}
 
 .hud-prefix {
   text-align: center;
