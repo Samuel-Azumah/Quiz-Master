@@ -20,4 +20,8 @@
       "choice1": "Test recording",
       "choice2": "Test configuration",
       "choice3": "Test planning",
-     
+      "choice4": "Test specification",
+      "answer": 4
+    }
+  ]
+
