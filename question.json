@@ -7,3 +7,9 @@
       "choice4": "It depends on the nature of a project",
       "answer": 4
     },
+    {
+      "question": "System testing is a ?",
+      "choice1": "Black box testing",
+      "choice2": "Grey box testing",
+      
+  
