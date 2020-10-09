@@ -29,3 +29,30 @@ fetch(
                 0,
                 loadedQuestion.correct_answer
             );
+  const answerChoices = [
+
+            answerChoices.forEach((choice, index) => {
+                formattedQuestion['choice' + (index + 1)] = choice;
+            });
+
+            return formattedQuestion;
+        });
+
+        startGame();
+    })
+    .catch((err) => {
+        console.error(err);
+    });
+
+
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 3;
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuesions = [...questions];
+    getNewQuestion();
+    game.classList.remove('hidden');
+    loader.classList.add('hidden');
+};
