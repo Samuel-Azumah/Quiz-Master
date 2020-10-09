@@ -22,3 +22,10 @@ fetch(
             const formattedQuestion = {
                 question: loadedQuestion.question,
             };
+            ...loadedQuestion.incorrect_answers];
+            formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+            answerChoices.splice(
+                formattedQuestion.answer - 1,
+                0,
+                loadedQuestion.correct_answer
+            );
