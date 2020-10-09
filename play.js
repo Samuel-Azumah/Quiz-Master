@@ -30,20 +30,16 @@ fetch(
                 loadedQuestion.correct_answer
             );
   const answerChoices = [
-
             answerChoices.forEach((choice, index) => {
                 formattedQuestion['choice' + (index + 1)] = choice;
             });
-
             return formattedQuestion;
         });
-
         startGame();
     })
     .catch((err) => {
         console.error(err);
     });
-
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
